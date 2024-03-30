@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(246, 224, 250);
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 165, 227);
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px rgb(66, 0, 99);
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 400px;
+    padding-bottom: 20px;
+}
+form p {
+    margin-bottom: 10px; 
+}
+button{
+    margin-top: 10px; 
+    background-color: #120d1a; 
+    color: white; 
+}
+#input_item,button {
+    padding: 8px;
+    width: 100%; 
+    box-sizing: border-box; 
+}
